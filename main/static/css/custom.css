@@ -1,0 +1,26 @@
+.tqFullDesign {
+  width: 50%;
+}
+.tqSmallLogo {
+  width: 20%;
+  margin-top: -10px;
+  margin-left: -17px;
+}
+
+.contact-street1 {
+  margin: 0 0 16px;
+  line-height: 1.75;
+  position: relative;
+}
+
+.contactPhone {
+  font-size: 0.9rem;
+}
+
+@media (max-width: 767px) {
+  .tqSmallLogo {
+    width: 50% !important;
+    margin-top: -11px;
+    margin-left: -0px;
+  }
+}
