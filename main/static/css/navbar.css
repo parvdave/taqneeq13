@@ -3,15 +3,6 @@
     box-sizing: border-box;
 }
 
-body {
-    font-family: "Muli", sans-serif;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    height: 100vh;
-}
-
 .text {
     text-transform: uppercase;
 }
@@ -84,7 +75,7 @@ body {
 
 .close-btn {
     opacity: 0.3;
-    position: absolute;
+    position: absolute !important;
     top: 40px;
     right: 30px;
 }

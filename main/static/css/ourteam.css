@@ -48,9 +48,9 @@ body {
     font-size: 1rem;
     font-weight: 300;
     line-height: 1.5;
-    color: #212529;
+    color: #fdfdfd;
     text-align: left;
-    background-color: #fff;
+    background-color: #111;
 }
 
 [tabindex="-1"]:focus {
@@ -151,7 +151,7 @@ sup {
 }
 
 a {
-    color: #007bff;
+    color: pink;
     text-decoration: none;
     background-color: transparent;
     -webkit-text-decoration-skip: objects;
@@ -1296,7 +1296,7 @@ body {
     font-family: "museo-sans-rounded", sans-serif;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
-    color: #333;
+    color: white;
     font-size: 18px;
 }
 
@@ -4337,7 +4337,7 @@ div#hs-eu-cookie-confirmation-buttons-area {
 }
 
 .advanced-column__2019.section-header__wrapper .main-section-title .supporting-content {
-    color: #333;
+    color: white !important;
 }
 
 .advanced-column__2019 .main-section-title {
@@ -13126,7 +13126,7 @@ div#hs-eu-cookie-confirmation-buttons-area {
     float: left;
     display: block;
     padding: 10px;
-    border: solid 1px white;
+    border: solid 1px #111;
     margin-bottom: 1rem;
     cursor: pointer;
     position: relative;

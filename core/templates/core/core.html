@@ -10,6 +10,11 @@
     <meta charset="utf-8">
     <meta http-equiv="x-ua-compatible" content="ie=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="{% static '/css/bootstrap.css' %}">
+
+    <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css'>
+    <link rel="stylesheet" href="{% static '/css/navbar.css' %}">
+    <link rel="stylesheet" href="{% static '/css/style.css' %}">
     <link rel="stylesheet" href="{% static '/css/ourteam.css' %}">
     <meta property="og:type" content="website">
     <style>
@@ -59,9 +64,41 @@
 </head>
 
 <body class="about-page__2019">
+    <div class="space"></div>
+
+    <button class="nav-btn open-btn">
+        <i class="fas fa-bars"></i>
+    </button>
+
+    <div class="nav nav-black">
+        <div class="nav nav-red">
+            <div class="nav nav-white">
+                <button class="nav-btn close-btn">
+              <i class="fas fa-times"></i>
+            </button>
+
+                <img src="https://logos-download.com/wp-content/uploads/2016/03/Netflix_logo.png" alt="Logo" class="logo" />
+
+                <ul class="list">
+                    <li><a href="#">Teams</a></li>
+                    <li><a href="#">Locations</a></li>
+                    <li><a href="#">Life at Netflix</a></li>
+                    <li>
+                        <ul>
+                            <li><a href="#">Netflix culture memo</a></li>
+                            <li><a href="#">Work life balance</a></li>
+                            <li><a href="#">Inclusion & diversity</a></li>
+                            <li><a href="#">Blog</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
     <main role="main" class="body-container" style="padding-bottom: 5.66em !important;">
         <div id="hs_cos_wrapper_module_155954649937032" class="hs_cos_wrapper hs_cos_wrapper_widget hs_cos_wrapper_type_module" style="" data-hs-cos-general-type="widget" data-hs-cos-type="module">
-            <section id="" class="section-header__wrapper advanced-column__2019 " style="background-color:#ffffff">
+            <section id="" class="section-header__wrapper advanced-column__2019 " style="background-color:transparent;">
                 <div class="wrapper padding-top__small padding-bottom__xsmall section-header__container text-center">
                     <div class="main-section-title  dark-blue ">
                         <h2>Meet the Crew</h2>
@@ -1350,6 +1387,7 @@
         <!---- end of team ---->
 
     </main>
+    <script src="{% static '/js/custom.js' %}"></script>
     <script src="{% static '/js/jquery-1.11.2.js' %}"></script>
     <script src="{% static '/js/main.min.js' %}"></script>
 </body>
