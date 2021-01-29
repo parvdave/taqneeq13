@@ -16,6 +16,9 @@
     <meta charset="UTF-8">
     <title>Taqneeq 13.0</title>
 
+    <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css'>
+
+    <link rel="stylesheet" href="{% static '/css/ourteam.css' %}">
 
     <link rel="shortcut icon" href="{% static 'img/tq_logo.png' %}">
     <link rel="stylesheet" href="{% static '/css/bootstrap.css' %}">
@@ -26,24 +29,54 @@
     <link rel="stylesheet" href="{% static '/css/owl.carousel.css' %}">
     <link rel="stylesheet" href="{% static '/css/glitch.css' %}">
     <link rel="stylesheet" href="{% static '/css/style.css' %}">
-
-    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css'>
+    <link rel="stylesheet" href="{% static '/css/navbar.css' %}">
+    <link rel="preconnect" href="https://fonts.gstatic. com">
     <link href="https://fonts.googleapis.com/css2?family=Chakra+Petch:wght@300&display=swap" rel="stylesheet">
 
 </head>
 
 <body>
-
     <div class="space"></div>
+
+    <button class="nav-btn open-btn">
+        <i class="fas fa-bars"></i>
+    </button>
+
+    <div class="nav nav-black">
+        <div class="nav nav-red">
+            <div class="nav nav-white">
+                <button class="nav-btn close-btn">
+              <i class="fas fa-times"></i>
+            </button>
+
+                <img src="https://logos-download.com/wp-content/uploads/2016/03/Netflix_logo.png" alt="Logo" class="logo" />
+
+                <ul class="list">
+                    <li><a href="#">Teams</a></li>
+                    <li><a href="#">Locations</a></li>
+                    <li><a href="#">Life at Netflix</a></li>
+                    <li>
+                        <ul>
+                            <li><a href="#">Netflix culture memo</a></li>
+                            <li><a href="#">Work life balance</a></li>
+                            <li><a href="#">Inclusion & diversity</a></li>
+                            <li><a href="#">Blog</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+
 
     <!-- WRAPPER -->
     <div id="wrapper">
         <!-- HEADER -->
-        <header class="site-header">
-
+        <!-- <header class="site-header">
             <div class="container-fluid">
                 <div class="row">
-
                     <div class="col-xs-4">
                         <a href="#" class="no-line logotype"><img src="{% static '/img/tq_logo.png' %}" alt="" class="tqSmallLogo"></a>
                     </div>
@@ -57,16 +90,13 @@
                             <div class="closes"></div>
                         </div>
                     </div>
-
                 </div>
             </div>
-
-        </header>
+        </header> -->
         <!-- /HEADER -->
 
         <!-- CONTENT -->
         <section class="site-content">
-
             <div id="fullpage" class="fullpage-wrapper">
 
                 <div class="all-section">
@@ -92,10 +122,7 @@
                             <!-- section-wrap -->
                         </div>
                         <!-- section-content -->
-
                     </div>
-
-
                     <div class="sections contact-block" data-title="Contact">
 
                         <div class="section-content">
@@ -239,6 +266,7 @@
     <script src="{% static 'js/bootstrap-select.min.js' %}"></script>
 
     <script src="{% static 'js/main.js' %}"></script>
+    <script src="{% static 'js/custom.js' %}"></script>
 
 
 </body>
