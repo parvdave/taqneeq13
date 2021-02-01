@@ -275,11 +275,6 @@ ul {
     padding-left: 20px;
 }
 
-ul li:before {
-    margin-top: -2px;
-    content: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAYAAAAGCAYAAADgzO9IAAAAPElEQVQIW42N0REAIAhCYSbbfwKdicpTr8/8QuQh0SMJJHsdgXPQWmBEerzGUBMvVGaiOy7xUfX0JFk/NsKCG2suG7TPAAAAAElFTkSuQmCC");
-}
-
 ol[type="I"] {
     counter-reset: item;
 }
@@ -1136,8 +1131,14 @@ body.under-construction #wrapper {
 
 @media (max-width: 767px) {
     .section-wrap {
-        padding: 0px 0 20px 0;
         overflow: auto;
+    }
+    .section-center {
+        padding: 2rem 0;
+        position: relative;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
     }
 }
 
@@ -1177,7 +1178,7 @@ body.under-construction #wrapper {
 
 @media (max-width: 767px) {
     .site-header {
-        padding: 20px;
+        padding: 20px !important;
     }
     .site-header .et-logo {
         width: 60px;
@@ -2296,7 +2297,7 @@ _:-ms-fullscreen,
         padding: 40px 22px;
     }
     .contact-me {
-        padding: 0 2px 50px;
+        padding: 0 2px 30px;
     }
     .contact-info {
         padding: 0px 0 0 43px;
@@ -2715,9 +2716,9 @@ _:-ms-fullscreen,
 
 @media (max-width: 767px) {
     #swiperNav {
-        right: 0;
+        bottom: 8px;
         left: 0;
-        bottom: 0;
+        right: 0;
     }
 }
 

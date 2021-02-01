@@ -2,8 +2,8 @@
 	$.fn.countdown = function (t) {
 
 		function i() {
-			today = new Date()
-			eventDate=new Date(today.getFullYear(), 1, 7) / 1e3;
+
+			eventDate = (Date.parse(new Date().toDateString())+86400000) / 1e3;
 
 			currentDate = Math.floor($.now() / 1e3);
 
@@ -27,8 +27,6 @@
 			hours = String(hours).length >= 2 ? hours : "0" + hours;
 			minutes = String(minutes).length >= 2 ? minutes : "0" + minutes;
 			seconds = String(seconds).length >= 2 ? seconds : "0" + seconds;
-
-			
 
 			if (!isNaN(eventDate)) {
 

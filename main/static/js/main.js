@@ -147,7 +147,7 @@ var $ = jQuery;
 
 		if ( $(".glitch-time").length ) {
 			$(".glitch-time").countdown({
-				date: "7 february 2021 23:59:59"
+				date: "13 march 2015 9:00:00"
 			});
 		}
 
