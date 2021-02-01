@@ -44,6 +44,7 @@ INSTALLED_APPS = [
     'core.apps.CoreConfig',
     'events.apps.EventsConfig',
     'main.apps.MainConfig',
+    'sponsors.apps.SponsorsConfig',
     'import_export',
     'django_extensions',
     'pandas',
