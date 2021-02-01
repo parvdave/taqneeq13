@@ -19,9 +19,25 @@
 }
 
 @media (max-width: 767px) {
+    .tqFullDesign {
+        width: 65%;
+    }
     .tqSmallLogo {
         width: 50% !important;
         margin-top: -11px;
         margin-left: -0px;
     }
+    .et-description-small {
+        border-top: 1px solid #2c303f;
+        margin-top: 0.6rem;
+        font-family: 'Chakra Petch', sans-serif;
+        font-size: 1.4rem;
+        width: 50%;
+        margin: 30px auto 0 auto;
+        padding: 10px 0 0 0;
+    }
+}
+
+.container {
+    height: auto !important;
 }
